@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#020812">
+  <title>MY OCEAN // ABYSSAL INTERFACE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body class="home-page" data-page="HOME">
+
+<div class="loader" aria-hidden="true">
+  <div class="loader-noise"></div>
+
+  <div class="loader-core">
+    <div class="sonar-loader"><i></i></div>
+
+    <b class="loader-symbol">◈</b>
+
+    <div class="loader-title">MY OCEAN</div>
+
+    <div class="loader-subtitle">
+      ABYSSAL INTERFACE / INITIALIZING
+    </div>
+
+    <div class="loader-progress">
+      <span></span>
+    </div>
+
+    <div class="loader-readout">
+      <span id="loadPct">000%</span>
+      <span id="loadDepth">DEPTH 0000M</span>
+    </div>
+
+    <div class="loader-status" id="loadStatus">
+      CALIBRATING SONAR...
+    </div>
+  </div>
+</div>
+
+<div class="cursor">
+  <div class="cursor-ring"></div>
+  <span>+</span>
+</div>
+
+<div class="click-layer"></div>
+
+<div class="ocean-world">
+
+  <div class="sunbeams"></div>
+  <div class="water-light"></div>
+  <div class="deep-fog"></div>
+  <div class="marine-snow"></div>
+  <div class="bubbles"></div>
+
+  <!-- สิ่งมีชีวิต -->
+  <div class="life" aria-hidden="true"></div>
+  <div class="large-entity"></div>
+
+  <!-- SONAR -->
+  <div class="sonar">
+    <div class="sonar-sweep"></div>
+    <i class="blip b1"></i>
+    <i class="blip b2"></i>
+    <i class="blip b3"></i>
+    <span class="sonar-label">BIO-SONAR / LIVE</span>
+  </div>
+
+  <!-- SCI-FI -->
+  <div class="tech-grid"></div>
+  <div class="circuits"></div>
+
+</div>
+
+<header>
+
+  <a class="brand" href="index.html">
+    <span>◉</span> MY<span>OCEAN</span>
+  </a>
+
+  <nav>
+    <a class="active" href="index.html">HOME</a>
+    <a href="profile.html">PROFILE</a>
+    <a href="education.html">EDUCATION</a>
+    <a href="hobby.html">HOBBIES</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <button class="mode" id="themeButton" aria-label="Toggle mode">
+    <span></span>
+  </button>
+
+</header>
+
+<aside class="depth">
+
+  <small>DEPTH TELEMETRY</small>
+
+  <strong id="depthValue">0000M</strong>
+
+  <div class="depth-track">
+    <i></i>
+  </div>
+
+  <div class="depth-meta">
+    <span>
+      PRESSURE <b id="pressure">1.0</b> ATM
+    </span>
+
+    <span>
+      TEMP <b id="temp">24.0</b>°C
+    </span>
+  </div>
+
+</aside>
+
+<main>
+
+<section class="hero">
+
+  <p class="eyebrow">
+    ABYSSAL RESEARCH NODE // 01
+  </p>
+
+  <h1>
+    WELCOME<br>
+    <span>TO MY OCEAN.</span>
+  </h1>
+
+  <p class="lead">
+    Dive deeper than the surface.
+    Discover my story, my education,
+    my passions and the little things
+    that make my world unique.
+  </p>
+
+  <div class="actions">
+
+    <a class="btn" href="profile.html">
+      ENTER PROFILE
+    </a>
+
+    <a class="btn ghost" href="#explore">
+      EXPLORE DEPTH ↓
+    </a>
+
+  </div>
+
+  <div class="telemetry">
+
+    <span>
+      STATUS <b>EXPLORING</b>
+    </span>
+
+    <span>
+      LOCATION <b>THAILAND</b>
+    </span>
+
+    <span>
+      MISSION <b>LEARN / CREATE</b>
+    </span>
+
+  </div>
+
+</section>
+
+<section id="explore" class="cards">
+
+  <article class="ocean-card">
+    <small>01 / SUBJECT</small>
+    <h2>PROFILE</h2>
+    <p>Meet the person behind this ocean.</p>
+    <a href="profile.html">READ DATA →</a>
+  </article>
+
+  <article class="ocean-card">
+    <small>02 / ARCHIVE</small>
+    <h2>EDUCATION</h2>
+    <p>Trace the learning journey.</p>
+    <a href="education.html">OPEN ARCHIVE →</a>
+  </article>
+
+  <article class="ocean-card">
+    <small>03 / SIGNAL</small>
+    <h2>HOBBIES</h2>
+    <p>Small interests that make a bigger world.</p>
+    <a href="hobby.html">SCAN INTERESTS →</a>
+  </article>
+
+  <article class="ocean-card">
+    <small>04 / CHANNEL</small>
+    <h2>CONTACT</h2>
+    <p>Establish a transmission.</p>
+    <a href="contact.html">CONNECT →</a>
+  </article>
+
+</section>
+
+<section class="quote">
+  <span>“</span>
+  <p>The deeper you dive, the more you discover.</p>
+</section>
+
+</main>
+
+<footer>
+  MY OCEAN // ABYSSAL INTERFACE
+  <span>● SYSTEM ONLINE</span>
+</footer>
+
+</body>
+</html>
